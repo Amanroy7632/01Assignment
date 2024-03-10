@@ -4,7 +4,7 @@ function Card({product}) {
     <div
     
       key={product.id}
-      className="w-1/4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      className="w-1/4 max-md:w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
     >
       
       <a href='/'>

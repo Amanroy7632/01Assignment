@@ -25,7 +25,7 @@ function App() {
       <div className="log w-1/2 flex items-center">
         <h2>Logo</h2>
         </div>
-      <ul className='flex w-1/5 justify-between items-center'>
+      <ul className='flex w-1/5 max-md:w-1/2 max-md:p-4 justify-between items-center'>
         <li>Home</li>
         <li>About</li>
         <li><a href="https://github.com/Amanroy7632" target='_blanck'>Github</a></li>
@@ -39,7 +39,7 @@ function App() {
         </form>
       </div>
        <h1 className=' text-center p-3 text-2xl bg-black text-white'>Products</h1>
-    <div className=' flex justify-around flex-wrap'>
+    <div className=' flex justify-around max-md:flex-col max-md:'>
       
     {
       product.map((product)=>{
