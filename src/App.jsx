@@ -39,7 +39,7 @@ function App() {
         </form>
       </div>
        <h1 className=' text-center p-3 text-2xl bg-black text-white'>Products</h1>
-    <div className=' flex justify-around max-md:flex-col max-md:'>
+    <div className=' flex justify-around flex-wrap'>
       
     {
       product.map((product)=>{
